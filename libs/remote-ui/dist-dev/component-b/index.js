@@ -1,5 +1,5 @@
-import { d as o, _ as s, c as t, a, t as c, o as p } from "../chunk/_plugin-vue_export-helper.chunk.js";
-const r = o({
+import { d as s, _ as o, c as t, a, t as n, o as r } from "../chunk/_plugin-vue_export-helper.chunk.js";
+const c = s({
   name: "ComponentB",
   props: {
     message: String
@@ -9,16 +9,13 @@ const r = o({
       message: e.message
     };
   }
-}), m = { class: "component-b" };
-function i(e, _, d, l, f, u) {
-  return p(), t("div", m, [
-    a("h1", null, c(e.message), 1)
+}), p = { class: "component-b" };
+function d(e, m, _, i, f, l) {
+  return r(), t("div", p, [
+    a("h1", null, n(e.message), 1)
   ]);
 }
-const n = /* @__PURE__ */ s(r, [["render", i], ["__scopeId", "data-v-25f25220"]]);
-n.install = function(e) {
-  e.component("ComponentB", n);
-};
+const g = /* @__PURE__ */ o(c, [["render", d], ["__scopeId", "data-v-25f25220"]]);
 export {
-  n as default
+  g as default
 };
