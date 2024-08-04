@@ -1,24 +1,25 @@
-import { _ as l } from "../../chunk/es/_plugin-vue_export-helper.chunk.js";
-const o = (e) => (Vue.pushScopeId("data-v-f8b39509"), e = e(), Vue.popScopeId(), e), p = /* @__PURE__ */ o(() => /* @__PURE__ */ Vue.createElementVNode("i", null, "1", -1)), a = /* @__PURE__ */ o(() => /* @__PURE__ */ Vue.createElementVNode("i", null, "2", -1)), s = /* @__PURE__ */ Vue.defineComponent({
+import { defineComponent as l, openBlock as s, createElementBlock as a, createElementVNode as t, toDisplayString as i, pushScopeId as _, popScopeId as m } from "vue";
+import { _ as d } from "../../chunk/es/_plugin-vue_export-helper.chunk.js";
+const n = (o) => (_("data-v-f8b39509"), o = o(), m(), o), r = /* @__PURE__ */ n(() => /* @__PURE__ */ t("i", null, "1", -1)), u = /* @__PURE__ */ n(() => /* @__PURE__ */ t("i", null, "2", -1)), f = /* @__PURE__ */ l({
   name: "ComponentA",
   __name: "index",
   props: {
     text: { default: "Click me" }
   },
-  setup(e) {
-    const n = () => {
+  setup(o) {
+    const c = () => {
       console.log("Button clicked");
     };
-    return (c, u) => (Vue.openBlock(), Vue.createElementBlock("button", { onClick: n }, [
-      p,
-      Vue.createElementVNode("span", null, Vue.toDisplayString(c.text) + "123", 1),
-      a
+    return (p, C) => (s(), a("button", { onClick: c }, [
+      r,
+      t("span", null, i(p.text) + "123", 1),
+      u
     ]));
   }
-}), t = /* @__PURE__ */ l(s, [["__scopeId", "data-v-f8b39509"]]);
-t.install = function(e) {
-  e.component(t.name || "ComponentA", t);
+}), e = /* @__PURE__ */ d(f, [["__scopeId", "data-v-f8b39509"]]);
+e.install = function(o) {
+  o.component(e.name || "ComponentA", e);
 };
 export {
-  t as default
+  e as default
 };

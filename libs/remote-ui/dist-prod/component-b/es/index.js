@@ -1,5 +1,6 @@
-import { _ as o } from "../../chunk/es/_plugin-vue_export-helper.chunk.js";
-const t = Vue.defineComponent({
+import { defineComponent as o, openBlock as t, createElementBlock as s, createElementVNode as p, toDisplayString as r } from "vue";
+import { _ as a } from "../../chunk/es/_plugin-vue_export-helper.chunk.js";
+const c = o({
   name: "ComponentB",
   props: {
     message: String
@@ -9,13 +10,13 @@ const t = Vue.defineComponent({
       message: e.message
     };
   }
-}), s = { class: "component-b" };
-function a(e, p, c, r, m, u) {
-  return Vue.openBlock(), Vue.createElementBlock("div", s, [
-    Vue.createElementVNode("h1", null, Vue.toDisplayString(e.message), 1)
+}), m = { class: "component-b" };
+function i(e, _, l, d, f, u) {
+  return t(), s("div", m, [
+    p("h1", null, r(e.message), 1)
   ]);
 }
-const n = /* @__PURE__ */ o(t, [["render", a], ["__scopeId", "data-v-25f25220"]]);
+const n = /* @__PURE__ */ a(c, [["render", i], ["__scopeId", "data-v-25f25220"]]);
 n.install = function(e) {
   e.component("ComponentB", n);
 };
