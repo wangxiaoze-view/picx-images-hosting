@@ -1,9 +1,9 @@
+# 文件说明
 
-# Welcome to use PicX
-
-[PicX](https://github.com/XPoet/picx) is a simple and powerful image hosting tool. It supports image hosting services via GitHub repository.
-
-PicX is completely open source, and you can use it for free.
-
-If you like it, please give it a star on [GitHub](https://github.com/XPoet/picx).
-        
+1. 3d: 存放一些 3D 模型以及贴图
+2. app：存放一些 app 资源，包含移动端以及桌面端(目前只有桌面端)
+3. files: 存放一些文件，如：excel, pdf 等
+4. fonts: 存放一些其他项目用到的自定义字体
+5. images: 存放一些图片, 主要用于知识库，文档等;
+6. libs: 存放一些第三方库，如：rrweb
+7. styles: 基础的 css 样式
