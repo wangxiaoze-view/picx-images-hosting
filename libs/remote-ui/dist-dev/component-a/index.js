@@ -1,4 +1,4 @@
-import { d as c, c as p, a as t, t as l, o as i, p as _, b as d, _ as m } from "../_plugin-vue_export-helper-29AvVHJO.js";
+import { d as c, c as p, a as t, t as l, o as i, p as _, b as d, _ as m } from "../chunk/_plugin-vue_export-helper.chunk.js";
 const n = (o) => (_("data-v-f8b39509"), o = o(), d(), o), r = /* @__PURE__ */ n(() => /* @__PURE__ */ t("i", null, "1", -1)), u = /* @__PURE__ */ n(() => /* @__PURE__ */ t("i", null, "2", -1)), f = /* @__PURE__ */ c({
   name: "ComponentA",
   __name: "index",

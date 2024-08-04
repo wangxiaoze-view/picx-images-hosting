@@ -1,4 +1,4 @@
-import { d as o, _ as s, c as t, a, t as c, o as p } from "../_plugin-vue_export-helper-29AvVHJO.js";
+import { d as o, _ as s, c as t, a, t as c, o as p } from "../chunk/_plugin-vue_export-helper.chunk.js";
 const r = o({
   name: "ComponentB",
   props: {
