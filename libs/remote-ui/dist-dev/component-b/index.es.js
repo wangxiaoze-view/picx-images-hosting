@@ -1,4 +1,4 @@
-import { d as o, _ as s, o as t, c as a, a as c, t as p } from "../_plugin-vue_export-helper-ThTUmaB5.js";
+import { d as o, _ as s, c as t, a, t as c, o as p } from "../_plugin-vue_export-helper-29AvVHJO.js";
 const r = o({
   name: "ComponentB",
   props: {
@@ -11,8 +11,8 @@ const r = o({
   }
 }), m = { class: "component-b" };
 function i(e, _, d, l, f, u) {
-  return t(), a("div", m, [
-    c("h1", null, p(e.message), 1)
+  return p(), t("div", m, [
+    a("h1", null, c(e.message), 1)
   ]);
 }
 const n = /* @__PURE__ */ s(r, [["render", i], ["__scopeId", "data-v-25f25220"]]);
