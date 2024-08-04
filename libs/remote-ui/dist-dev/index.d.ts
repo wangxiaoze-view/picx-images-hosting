@@ -1,10 +1,25 @@
-import { default as ComponentA } from './component-a/index.vue';
-import { default as ComponentB } from './component-b/index.vue';
-
-export { ComponentA, ComponentB };
-declare module 'vue' {
-    interface GlobalComponents {
-        ComponentA: typeof ComponentA;
-        ComponentB: typeof ComponentB;
-    }
-}
+declare const components: {
+    ComponentA: import('vue').DefineComponent<{
+        text: {
+            type: import('vue').PropType<string>;
+            required: true;
+            default: string;
+        };
+    }, {}, unknown, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<{
+        text: {
+            type: import('vue').PropType<string>;
+            required: true;
+            default: string;
+        };
+    }>>, {
+        text: string;
+    }, {}>;
+    ComponentB: import('vue').DefineComponent<{
+        message: StringConstructor;
+    }, {
+        message: string | undefined;
+    }, unknown, {}, {}, import('vue').ComponentOptionsMixin, import('vue').ComponentOptionsMixin, {}, string, import('vue').PublicProps, Readonly<import('vue').ExtractPropTypes<{
+        message: StringConstructor;
+    }>>, {}, {}>;
+};
+export default components;
