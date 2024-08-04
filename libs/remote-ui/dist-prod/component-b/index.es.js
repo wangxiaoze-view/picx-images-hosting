@@ -1,5 +1,6 @@
-import { d as o, _ as s, o as t, c as a, a as c, t as p } from "../_plugin-vue_export-helper-ThTUmaB5.js";
-const r = o({
+import { defineComponent as o, openBlock as t, createElementBlock as s, createElementVNode as p, toDisplayString as r } from "vue";
+import { _ as a } from "../_plugin-vue_export-helper-CHgC5LLL.js";
+const c = o({
   name: "ComponentB",
   props: {
     message: String
@@ -10,12 +11,12 @@ const r = o({
     };
   }
 }), m = { class: "component-b" };
-function i(e, _, d, l, f, u) {
-  return t(), a("div", m, [
-    c("h1", null, p(e.message), 1)
+function i(e, _, l, d, f, u) {
+  return t(), s("div", m, [
+    p("h1", null, r(e.message), 1)
   ]);
 }
-const n = /* @__PURE__ */ s(r, [["render", i], ["__scopeId", "data-v-25f25220"]]);
+const n = /* @__PURE__ */ a(c, [["render", i], ["__scopeId", "data-v-25f25220"]]);
 n.install = function(e) {
   e.component("ComponentB", n);
 };
