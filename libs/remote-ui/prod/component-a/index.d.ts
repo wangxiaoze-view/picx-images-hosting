@@ -1,4 +1,4 @@
-import { App } from 'vue';
+import { App } from '../../../vue/dist/vue.esm-bundler.js';
 import { default as ComponentA } from './index.vue';
 
 export { ComponentA };
