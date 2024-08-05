@@ -1,4 +1,4 @@
-import { App } from '../../vue/dist/vue.esm-bundler.js';
+import { App } from 'vue';
 import { default as MyComponent } from './component-a/index.vue';
 
 declare const install: (app: App<Element>) => void;
